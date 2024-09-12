@@ -13,7 +13,7 @@ int main()
     cin >> n;
     ll x;
     cin >> x;
-    unordered_map<ll, int> freq;
+    map<ll, int> freq;
     ll ans = 0;
     ll sum = 0;
     for(int i = 0; i < n; i++) {
